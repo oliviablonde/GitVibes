@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background-color: #f5f5f5;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: #f7f7f4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,24 +24,39 @@ body {
 }
 
 .card {
-    background-color: #ece3ca;
-    border-radius: 20px;
-    padding: 40px 32px;
+    background-color: #f2f1ed;
+    border-radius: 4px;
+    padding: 16px;
     width: 320px;
     flex-shrink: 0;
 }
 
 .card-title {
-    font-size: 32px;
-    font-weight: 600;
-    color: #333;
+    font-weight: 400;
     margin-bottom: 8px;
+    font-size: 22px;
+    line-height: 28px;
+    color: #26251e;
+}
+
+.card-price,
+.card-price-amount,
+.card-price-period {
+    color: rgba(38, 37, 30, 0.5);
 }
 
 .card-price {
     font-size: 20px;
-    color: #666;
     margin-bottom: 24px;
+}
+
+.card-price-amount {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card-price- {
+    font-size: 14px;
 }
 
 .card-content {
